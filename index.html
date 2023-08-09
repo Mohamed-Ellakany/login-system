@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-8">
+          <div class="item p-5 mt-5">
+            <h1 class="text-center text-info">smart login system</h1>
+            <input
+              id="signupName"
+              class="form-control my-3 bg-transparent"
+              placeholder="enter your name"
+              type="text"
+            />
+            <p id="userExist" class="text-center text-white d-none">
+              user name is exist
+            </p>
+
+            <input
+              id="signupEmail"
+              class="form-control my-3 bg-transparent"
+              placeholder="enter your email"
+              type="text"
+            />
+            <p id="emailExist" class="text-center text-white d-none">
+              Email is exist
+            </p>
+
+            <input
+              id="signupPass"
+              class="form-control my-3 bg-transparent"
+              placeholder="enter your password"
+              type="password"
+            />
+            <p id="success" class="text-center text-success d-none">Success</p>
+            <p id="less" class="text-center text-danger d-none">
+              All inputs is required
+            </p>
+            <p id="isexist" class="text-center text-danger d-none">
+              Email is Exist
+            </p>
+            <p id="emailvali" class="text-center text-danger d-none">
+              Email is not true
+            </p>
+
+            <a id="signupBtn">
+              <button
+                
+                class="btn btn-outline-info form-control my-3"
+              >
+                sign up
+              </button></a
+            >
+            <p class="text-white text-center">
+              you have an account?
+              <a href="./html/login/index.html" class="text-white">signin</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+  </body>
+</html>
